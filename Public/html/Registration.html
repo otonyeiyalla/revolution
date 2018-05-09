@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+   <meta charset="utf-8">
+   <title>Registration</title>
+   <link rel="icon" href="/img/dp1.png" type="image/x-icon"/>
+   <link rel="stylesheet" href="css/reset.css" />
+   <link rel="stylesheet" href="css/registration.css" />
+</head>
+<body>
+<header>
+	<h1><a href="/"><img src="/img/dp1.png"></a>Registration</h1>
+	<p>The Revolution</p>
+</header>
+<main>
+	<form name="frm" ng-submit="registration()">
+		<fieldset>
+			<section>
+				<table>
+					<tr>
+						<td>
+							<div>
+								<p>Name </p>
+								<input required ng-model="data.name" type ="text" name= "name" class="bar_width" placeholder=" Kindly enter your name"/>
+							</div>
+
+							<div>
+								<p>Phone Number</p>
+								<input type ="tel" ng-model="data.phoneNumber" name="usertel" maxlength="11" class="bar_width" placeholder="Kindly enter your phone number"/>
+							</div>
+
+							<div>
+								<p>Pickup & Drop-off Location</p>
+								<select ng-required ng-model = "data.location" name="location" class="size" >
+									<option>Jesus House (Rumukrushi)</option>
+									<option>Kings Palace (G.R.A)</option>
+									<option>Port Harcourt Poly (Rumoula)</option>
+									<option>Uniport</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<div>
+								<p>Email </p>
+								<input type ="email" ng-model="data.email" name= " email" class="bar_width" placeholder=" Enter your email"/>
+							</div>
+
+							<div>
+								<p><label>Shirt Size </label></p>
+								<select required ng-model="data.size" name="size" class="size" >
+									<option>Small</option>
+									<option>Medium</option>
+									<option>Large</option>
+									<option>Extra Large</option>
+								</select>
+							</div>
+						</td>
+					</tr>
+				</table>
+
+				<div class="bar_width2">
+					<button type="submit" class="button1"> Submit</button> &nbsp;
+					<button type="reset" value="Clear Form" class="button12">Clear Form</button>
+				</div>
+			</section>
+		</fieldset>
+	</form>
+</main> 
+
+<footer>
+<div>
+<p>About Us</p>
+The Revolution is a soon to be non-governmental organization focused on youth empowerment. It hosts an annual event in Port Harcourt, Rivers State, Nigeria, and always tries to encourage the youth to not follow the norm and to stand out. The first Revolution program took place in 2015, and was believed to a success through the testimonies of the attendees. It was a fun-filled event that had a lot of entertainment showcasing local talents and a key speaker that motivated the youth to be the change they want to see in their surroundings and to make a difference. As a result oriented organization, our motto says everything we want the youth to do; Stand up! Be the change and make a difference.
+</div>
+</footer>
+
+  <p><em>Copyright &copy; 2018 The Revolution</em></p>
+  
+</body>
+</html>

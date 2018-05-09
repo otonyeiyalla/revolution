@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: "Times New Roman", Lobster, Cambria, serif;
+}
+body {
+   font-family: "Open Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+   background-color: #1C1B1A;
+}
+
+
+/* header and navigation */
+
+header, footer {
+  color: white;
+  background-color: #CCA716;
+  margin: 0em 4em 0.25em 4em;
+}
+header h1 { 
+  padding: 0.5rem 0 0 1.25rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+header p { 
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  padding: 0 0 0 1.25rem;
+}
+
+/* main article styling */
+main {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   padding: 1em;
+}
+
+section {
+   margin-bottom: 1em;
+   padding: 0;
+   width: 100%;
+}
+
+fieldset {
+   margin: 0;
+   padding: 0;
+   background-color: #FFD700;
+   width: 100%;
+   border: none;
+}
+form p {
+   margin-top: 0.5em;
+}
+
+form {
+   width: 100%;
+}
+
+table{
+   width:100%;
+}
+
+td{
+   width: 50%;
+}
+
+.size{
+   width:40%;
+   height: 2em;
+}
+
+.bar_width {
+    width: 40%;
+    height: 2em;
+}
+
+.bar_width1 {
+    width: 40%;
+    height: 6em;
+}
+
+.bar_width2{
+   width: 97%;
+   background-color: #CCA716;
+   margin-left: 10px; 
+}
+
+div{
+   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+
+}
+
+.button1{
+   background-color: rgb(21, 143, 204);
+   width: 8em;
+   height: 5em;
+   border-radius: 0.5em;
+   border:none;
+   font-size: 0.8em;
+   color: white;
+   text-align: center;
+}
+
+.button12{
+   background-color: rgb(225, 30, 97);
+   width: 8em;
+   height: 5em;
+   border-radius: 0.5em;
+   border:none;
+   font-size: 0.8em;
+   color: white;
+   text-align: center;
+}
+
+

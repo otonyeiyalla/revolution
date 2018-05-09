@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Feedback</title>
+   <link rel="icon" href="/img/dp1.png" type="image/x-icon"/>
+   <link rel="stylesheet" href="css/reset.css" />
+   <link rel="stylesheet" href="css/feedback.css" />
+</head>
+<body>
+<header>
+     <h1><a href="/"><img src="/img/dp1.png"></a>Feedback</h1>
+     <p>The Revolution</p>
+</header>
+<main>
+    <form name="frm" ng-submit="feedback()">
+        <fieldset>
+            <section>
+                <div>
+                    <p>Name </p>
+                    <input ng-model="data.name" type ="text" name= "name" required class="bar_width" placeholder=" Kindly enter your name"/>
+                </div>
+                <div>
+                    <p>Email </p>
+                    <input ng-model="data.email" type ="email" name= " email" class="bar_width" placeholder=" Enter your email"/>
+                </div>
+
+                <div>
+                    <p>Comment</p>
+                    <textarea ng-model="data.comment" name= "comment" class="bar_width1" required placeholder=" Enter comment"></textarea>
+                </div>
+
+                <div class="bar_width2">
+
+                    <button type="submit" class="button1" > Submit</button> &nbsp;
+
+                    <button type="reset" value="Clear Form" class="button12">Clear Form</button>
+                </div>
+
+            </section>
+        </fieldset>
+    </form>
+</main> 
+<footer>
+    <p><em>Copyright &copy; 2018 The Revolution</em></p>
+</footer> 
+</body>
+</html>
