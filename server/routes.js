@@ -16,7 +16,7 @@ exports.registration = function(req, res) {
 
     var mailOptions = {
         from: 'teamrevolution247@gmail.com',
-        to: 'otonyeiyalla@gmail.com',
+        to: 'teamrevolution247@gmail.com',
         subject: 'Registration for Revolution',
         text: contents
 
@@ -43,7 +43,7 @@ exports.feedback = function(req, res) {
 
     var mailOptions = {
         from: 'teamrevolution247@gmail.com',
-        to: 'otonyeiyalla@gmail.com',
+        to: 'teamrevolution247@gmail.com',
         subject: 'Feedback for Revolution',
         text: contents
 
