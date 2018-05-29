@@ -2,8 +2,8 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'teamrevolution247@gmail.com',
-        pass: 'Revolutio247'
+        user: 'Enter senders email',
+        pass: 'Enter senders password'
     }
 });
 
@@ -15,8 +15,8 @@ exports.registration = function(req, res) {
    "\n Size: " + body.size + "\n Location: " + body.location;
 
     var mailOptions = {
-        from: 'teamrevolution247@gmail.com',
-        to: 'teamrevolution247@gmail.com',
+        from: 'senders email',
+        to: 'receivers email',
         subject: 'Registration for Revolution',
         text: contents
 
@@ -42,8 +42,8 @@ exports.feedback = function(req, res) {
     var contents = "Name: " + body.name  + "\n Email: " + body.email + "\n Comment: " + body.comment;
 
     var mailOptions = {
-        from: 'teamrevolution247@gmail.com',
-        to: 'teamrevolution247@gmail.com',
+        from: 'senders email',
+        to: 'receivers email',
         subject: 'Feedback for Revolution',
         text: contents
 
